@@ -24,9 +24,9 @@ $sec = "5";
 <h1>Deteccion de intrusos soporte AWS</h1>
 <?php
 // Conexion a la base de datos
-$username = "UsAdm";
-$password = "adm1234";
-$database = 'intruder';
+$username = "<usu_DB>";
+$password = "<password>";
+$database = '<DB>';
 $con=mysqli_connect("localhost",$username,$password) or die ("No fue posible la conexion al MAriaDB");
 mysqli_select_db($con,$database) or die ("No se pudo abrir la base de datos");
 $query = "SELECT * FROM PIR1";
